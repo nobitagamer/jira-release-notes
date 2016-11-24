@@ -1,0 +1,20 @@
+## Release Notes - <%= name %> - Version <%= prefix %> <%= version %>
+-------------------------------------------------------------------------------<%
+if (notes.length > 0) { %>
+
+### Important Notes<%
+    notes.forEach(issue => { %>
+
+**[<%= issue.id %>]**
+<%= issue.note %><%
+    }) %>
+<% } %>
+### Changes in this release<%
+Object.keys(issueGroups).forEach(key => { %>
+
+#### <%= key %><%
+    issueGroups[key].forEach(issue => { %>
+* [<%= issue.id %>] - <%= issue.title %><%
+    }) %><%
+}) %>
+

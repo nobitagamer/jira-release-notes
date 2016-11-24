@@ -1,0 +1,29 @@
+{
+  "name": "jira-release-notes",
+  "version": "1.0.0",
+  "description": "Generate release notes from Jira issues.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nobitagamer/jira-release-notes.git"
+  },
+  "keywords": [
+    "jira",
+    "release-notes"
+  ],
+  "author": "Nguyen Khac Trieu <trieunk@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nobitagamer/jira-release-notes/issues"
+  },
+  "homepage": "https://github.com/nobitagamer/jira-release-notes#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "consolidate": "^0.14.5",
+    "jira-search": "^0.1.2",
+    "underscore": "^1.8.3"
+  }
+}
