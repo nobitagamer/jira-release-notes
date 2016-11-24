@@ -20,7 +20,9 @@
     "url": "https://github.com/nobitagamer/jira-release-notes/issues"
   },
   "homepage": "https://github.com/nobitagamer/jira-release-notes#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "prompt": "^1.0.0"
+  },
   "dependencies": {
     "consolidate": "^0.14.5",
     "jira-search": "^0.1.2",
