@@ -12,7 +12,8 @@ if (typeof process.env.JIRA_USERNAME === 'undefined') {
       },
       password: {
         description: 'Enter your Jira password',
-        hidden: true
+        hidden: true,
+        replace: '*'
       }
     }
   }
